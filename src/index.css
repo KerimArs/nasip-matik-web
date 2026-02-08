@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', sans-serif;
+  background-color: #050510;
+  color: white;
+}
+
+@theme {
+  --color-neon-pink: #ff007f;
+  --color-neon-cyan: #00f3ff;
+  --color-neon-gold: #ffd700;
+  --color-deep-bg: #050510;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
